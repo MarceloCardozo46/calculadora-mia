@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="contenedor">
+        <div class="display-contenedor">
+            <input type="text" class="display" name="" id="display-operacion" readonly></input>
+            <input type="text" class="display" name="" id="display-resultado" readonly></input>
+        </div>
+        <div class="keyboard">
+            <div class="keyboard-operaciones">
+                <button class="teclas teclas-negras operaciones">/</button>
+                <button class="teclas teclas-negras operaciones">x</button>
+                <button class="teclas teclas-negras operaciones">-</button>
+                <button class="teclas teclas-negras operaciones">+</button>
+            </div>
+            <div class="keyboard-contenedor-numbers">
+                <div class="keyboard-controls">
+                    <button class="teclas teclas-negras btn-limpieza" id="btn-ce">CE</button>
+                    <button class="teclas teclas-negras btn-limpieza" id="btn-c">C</button>
+                    <button class="teclas teclas-negras btn-limpieza" id="btn-x">X</button>
+                    <button class="teclas teclas-azul btn-limpieza" id="btn-equal">=</button>
+                </div>
+                <div class="keyboard-numbers">
+                    
+                    <button class="teclas num">7</button>
+                    <button class="teclas num">8</button>
+                    <button class="teclas num">9</button>
+                    <button class="teclas num">4</button>
+                    <button class="teclas num">5</button>
+                    <button class="teclas num">6</button>
+                    <button class="teclas num">1</button>
+                    <button class="teclas num">2</button>
+                    <button class="teclas num">3</button>
+                    <button class="teclas num">+/-</button>
+                    <button class="teclas num">0</button>
+                    <button class="teclas num">,</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
